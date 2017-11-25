@@ -1,0 +1,23 @@
+{
+  "name": "react-native-timer-countdown",
+  "version": "1.0.0",
+  "description": "A customizable countdown component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avid21/react-native-timer-countdown.git"
+  },
+  "keywords": [
+    "countdown",
+    "react-native"
+  ],
+  "author": "avid21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avid21/react-native-timer-countdown/issues"
+  },
+  "homepage": "https://github.com/avid21/react-native-timer-countdown#readme"
+}
