@@ -1,4 +1,17 @@
 # React Native Timer Countdown
+A customizable countdown component for React Native.
+
+## Install
+
+```sh
+npm install --save react-native-timer-countdown`
+```
+
+or
+
+```sh
+yarn add react-native-timer-countdown
+```
 
 ## Usage
 
@@ -23,8 +36,8 @@ render() {
 | :--- | :----- | :--- | :---: | :---: |
 | initialSecondsRemaining | The time remaining for the countdown (in ms) | number | ✓ |  |
 | interval | The time between timer ticks (in ms). | number | ✓ | 1000ms |
-| allowFontScaling | to allow font scaling | bool |  | `null` |
-| style | The custom styling which will be applied to the Text component | style |  | `false` |
+| allowFontScaling | to allow font scaling | bool |  | false |
+| style | The custom styling which will be applied to the Text component | style |  |  |
 | formatFunc | A function that formats the secondsRemaining | func | | |
 | onTick | A function to call each tick | func | | |
 | onTimeElapsed | A function to call when the countdown completes | func |  | |
